@@ -1,34 +1,46 @@
 import React, { Component } from 'react';
+import {io} from 'socket.io-client';
 
 class Temperatures extends Component {
 
     constructor(props){
         super(props);
         this.state = {
-            temperatures: []
+            temperature: 10.0
         }
     }
 
     componentDidMount(){
-        fetch('/temperatures')
-        .then(res => res.json())
-        .then(temp => {
-            this.setState({temperatures: temp.rows});
-            console.log(this.state.temperatures);
-        });
+        console.log('222222222222');
+        //fetch('/temperatures')
+        //.then(res => res.json())
+        //.then(temp => {
+        //    this.setState({temperatures: temp.rows});
+        //   console.log(this.state.temperatures);
+        //});
     }
 
-    render() {
+    render(){
         return (
-            <ul>
+            <div>
                 {
-                    this.state.temperatures.map(temp => (
-                        <li>Temperature:{temp.temperature}</li>
-                    ))
+                    this.state.temperature
                 }
-            </ul>
+            </div>
         )
     }
+
+    //render() {
+    //    return (
+    //        <ul>
+    //            {
+    //                this.state.temperatures.map(temp => (
+    //                    <li>Temperature:{temp.temperature}</li>
+    //                ))
+    //            }
+    //        </ul>
+    //    )
+    //}
 }
 
 export default Temperatures;
