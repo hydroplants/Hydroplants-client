@@ -5,7 +5,6 @@
   "deploy": "gh-pages -d build",
   "homepage": "https://hydroplants.github.io/Hydroplants-client",
   "private": true,
-  "proxy": "http://192.168.0.108:8000/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,6 +14,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
     "socket.io": "^4.7.2",
     "socket.io-client": "^4.7.2",

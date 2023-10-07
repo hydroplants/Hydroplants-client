@@ -1,8 +1,7 @@
 import React from "react";
-import '../css/home.css';
+import '../css/dashboard.css';
 
-const Home = () => {
-    
+const Dashboard = () => {
     const [temperature, setTemperature] = React.useState([]);
 
     React.useEffect(() => {
@@ -30,13 +29,12 @@ const Home = () => {
 
     return (
         <div>
-            <div className="home-head">
-                <h1>Welcome</h1>
+            <div className="dash-heading"><h1>Dashboard</h1></div>
+            <div className="div-1">
+                Temperature: {temperature}
             </div>
         </div>
     )
 }
 
-export default Home;
-//https://flowing-aware-kangaroo.ngrok-free.app/api/data
-//"homepage": "https://hydroplants.github.io/Hydroplants-client",
+export default Dashboard;
