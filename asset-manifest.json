@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Hydroplants-client/static/css/main.dec3fa78.css",
-    "main.js": "/Hydroplants-client/static/js/main.7954cc80.js",
+    "main.css": "/Hydroplants-client/static/css/main.2ee77159.css",
+    "main.js": "/Hydroplants-client/static/js/main.0fe9030b.js",
     "static/js/787.7b60fd80.chunk.js": "/Hydroplants-client/static/js/787.7b60fd80.chunk.js",
     "index.html": "/Hydroplants-client/index.html",
-    "main.dec3fa78.css.map": "/Hydroplants-client/static/css/main.dec3fa78.css.map",
-    "main.7954cc80.js.map": "/Hydroplants-client/static/js/main.7954cc80.js.map",
+    "main.2ee77159.css.map": "/Hydroplants-client/static/css/main.2ee77159.css.map",
+    "main.0fe9030b.js.map": "/Hydroplants-client/static/js/main.0fe9030b.js.map",
     "787.7b60fd80.chunk.js.map": "/Hydroplants-client/static/js/787.7b60fd80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dec3fa78.css",
-    "static/js/main.7954cc80.js"
+    "static/css/main.2ee77159.css",
+    "static/js/main.0fe9030b.js"
   ]
 }
