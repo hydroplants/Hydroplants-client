@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
-  "homepage": "https://hydroplants.github.io/Hydroplants-client",
+  "homepage": "https://hydroplants.github.io/Hydroplants-client/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
